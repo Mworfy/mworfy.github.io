@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="assets/images/MW dark.png" fetchpriority="high">
+    <link rel="preload" as="image" href="assets/images/Wello.png" fetchpriority="high">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -14,7 +17,7 @@
     <!-- Navigation -->
     <nav class="navigation">
         <div class="logo">
-            <img src="assets/images/MW dark.png" alt="MW dark" class="logo-image">
+            <img src="assets/images/MW dark.png" alt="MW dark" class="logo-image" fetchpriority="high" decoding="async">
         </div>
         <div class="nav-links">
             <a href="#about" class="nav-link">About Me</a>
@@ -65,7 +68,7 @@
                 <div class="right-section">
                     <!-- Profile Image -->
                     <div class="profile-image-container">
-                        <img src="assets/images/Wello.png" alt="Mohamed Wael Orfy" class="profile-image" id="profileImage">
+                        <img src="assets/images/Wello.png" alt="Mohamed Wael Orfy" class="profile-image" id="profileImage" fetchpriority="high" decoding="async">
                     </div>
                 </div>
             </div>
@@ -148,43 +151,43 @@
                 <h2 class="section-title">Projects</h2>
                 <div class="projects-grid">
                     <a href="https://aiesec.org.eg/ep-guide.html" target="_blank" rel="noopener noreferrer" class="project-card">
-                        <img src="assets/images/projects/EP Guide.png" alt="EP Guide" class="project-image">
+                        <img src="assets/images/projects/EP Guide.png" alt="EP Guide" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">EP Guide</div>
                     </a>
                     <a href="https://aiesec.org.eg/customer-complains.html" target="_blank" rel="noopener noreferrer" class="project-card">
-                        <img src="assets/images/projects/Complaints.png" alt=" Customer Complaints" class="project-image">
+                        <img src="assets/images/projects/Complaints.png" alt=" Customer Complaints" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">Cutomer Complaints</div>
                     </a>
                     <a href="https://mcp.aiesec.org.eg/" target="_blank" rel="noopener noreferrer" class="project-card">
-                        <img src="assets/images/projects/MCP.png" alt="MCP" class="project-image">
+                        <img src="assets/images/projects/MCP.png" alt="MCP" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">MCP</div>
                     </a>
                     <a href="https://aiesec.org.eg/bluefriday25.html" target="_blank" rel="noopener noreferrer" class="project-card">
-                        <img src="assets/images/projects/Blue Friday.png" alt="Blue Friday" class="project-image">
+                        <img src="assets/images/projects/Blue Friday.png" alt="Blue Friday" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">Blue Friday</div>
                     </a>
                     <a href="https://activate-25.aiesec.org.eg/" target="_blank" rel="noopener noreferrer" class="project-card">
-                        <img src="assets/images/projects/Activate.png" alt="Activate" class="project-image">
+                        <img src="assets/images/projects/Activate.png" alt="Activate" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">Activate</div>
                     </a>
                     <a href="https://crazyops.aiesec.org.eg/" target="_blank" rel="noopener noreferrer" class="project-card">
-                        <img src="assets/images/projects/CrazyOPS.png" alt="CrazyOPS" class="project-image">
+                        <img src="assets/images/projects/CrazyOPS.png" alt="CrazyOPS" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">CrazyOPS</div>
                     </a>
                     <a href="https://vertex.aiesec.org.eg/" target="_blank" rel="noopener noreferrer" class="project-card">
-                        <img src="assets/images/projects/Vertex.png" alt="Vertex" class="project-image">
+                        <img src="assets/images/projects/Vertex.png" alt="Vertex" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">Vertex</div>
                     </a>
                     <a href="https://impact.aiesec.org.eg/membership-ranking.html" target="_blank" rel="noopener noreferrer" class="project-card">
-                        <img src="assets/images/projects/IMPACT.png" alt="IMPACT" class="project-image">
+                        <img src="assets/images/projects/IMPACT.png" alt="IMPACT" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">IMPACT</div>
                     </a>
                     <a href="http://mea-xlds.aiesec.org.eg/" target="_blank" rel="noopener noreferrer" class="project-card">
-                        <img src="assets/images/projects/MEA XLDS.png" alt="MEA XLDS" class="project-image">
+                        <img src="assets/images/projects/MEA XLDS.png" alt="MEA XLDS" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">MEA XLDS</div>
                     </a>
                     <div class="project-card">
-                        <img src="assets/images/projects/Accelerator.png" alt="Accelerator" class="project-image">
+                        <img src="assets/images/projects/Accelerator.png" alt="Accelerator" class="project-image" loading="lazy" decoding="async">
                         <div class="project-title-overlay">Accelerator</div>
                     </div>
                 </div>
